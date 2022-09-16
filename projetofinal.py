@@ -51,7 +51,7 @@ balancete = pd.read_csv('balancete.csv')
 
 balancete.head()
 
-# usando pandas para ler .XlSX e demonstrar aquivo com a definição da variável novo_balancete
+# usando pandas para ler csv e transformar em .XlSX - com a definição da variável novo_balancete
 
 balancete.to_excel("balancete.xlsx")
 
